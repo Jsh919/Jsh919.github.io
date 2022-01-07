@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Alwayscu</title>
+  <icon>https://always.com/icon.png</icon>
+  
+  <link href="https://always.com/atom.xml" rel="self"/>
+  
+  <link href="https://always.com/"/>
+  <updated>2021-12-10T07:27:35.604Z</updated>
+  <id>https://always.com/</id>
+  
+  <author>
+    <name>Alwayscu</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>滚动轴承 - 包络解调分析</title>
+    <link href="https://always.com/posts/55066/"/>
+    <id>https://always.com/posts/55066/</id>
+    <published>2021-11-26T12:05:00.000Z</published>
+    <updated>2021-12-10T07:27:35.604Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;问题描述&quot;&gt;问题描述&lt;/h2&gt;
+&lt;p&gt;滚动轴承的损伤常发生在外圈、内圈、保持架以及滚动体上。滚动轴承运作时会周期性的撞击故障部位，产生高频共振信号，下图为轴承运行过程中，内圈与滚动体之间发生的冲击。&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="故障诊断" scheme="https://always.com/categories/%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD/"/>
+    
+    
+    <category term="滚动轴承" scheme="https://always.com/tags/%E6%BB%9A%E5%8A%A8%E8%BD%B4%E6%89%BF/"/>
+    
+    <category term="Matlab" scheme="https://always.com/tags/Matlab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github 搭建个人网站</title>
+    <link href="https://always.com/posts/12007/"/>
+    <id>https://always.com/posts/12007/</id>
+    <published>2021-11-10T12:37:00.000Z</published>
+    <updated>2022-01-07T09:14:27.700Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+&lt;p&gt;个人网站的框架常见有：Hexo、Wordpress、Typecho 等。一开始我采用的网站搭建方式是：Typecho + 阿里服务器，但对于我来说每年的服务器费是一笔不小的支出，而且 Typecho 扩展性有限，遂改为</summary>
+        
+      
+    
+    
+    
+    <category term="个人网站" scheme="https://always.com/categories/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
+    
+    
+    <category term="Hexo" scheme="https://always.com/tags/Hexo/"/>
+    
+    <category term="Github" scheme="https://always.com/tags/Github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://always.com/posts/16107/"/>
+    <id>https://always.com/posts/16107/</id>
+    <published>2021-11-10T11:57:00.000Z</published>
+    <updated>2021-11-12T14:09:06.925Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;很久之前便想搭建个人网站，但是由于我学业繁忙一直没能落实</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
