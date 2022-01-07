@@ -28,9 +28,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;问题描述&quot;&gt;问题描述&lt;/h2&gt;
-&lt;p&gt;滚动轴承的损伤常发生在外圈、内圈、保持架以及滚动体上。滚动轴承运作时会周期性的撞击故障部位，产生高频共振信号，下图为轴承运行过程中，内圈与滚动体之间发生的冲击。&lt;/p&gt;
-&lt;p&gt;&lt;img</summary>
+    <summary type="html">&lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -57,8 +55,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
-&lt;p&gt;个人网站的框架常见有：Hexo、Wordpress、Typecho 等。一开始我采用的网站搭建方式是：Typecho + 阿里服务器，但对于我来说每年的服务器费是一笔不小的支出，而且 Typecho 扩展性有限，遂改为</summary>
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;个人网站的框架常见有：Hexo、Wordpress、Typecho 等。一开始我采用的网站搭建方式是：Typecho +</summary>
         
       
     
