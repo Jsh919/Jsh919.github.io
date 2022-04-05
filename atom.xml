@@ -6,7 +6,7 @@
   <link href="https://always.com/atom.xml" rel="self"/>
   
   <link href="https://always.com/"/>
-  <updated>2022-04-04T07:26:57.798Z</updated>
+  <updated>2022-04-05T16:23:40.770Z</updated>
   <id>https://always.com/</id>
   
   <author>
@@ -21,29 +21,17 @@
     <link href="https://always.com/posts/19942/"/>
     <id>https://always.com/posts/19942/</id>
     <published>2022-04-03T13:19:42.848Z</published>
-    <updated>2022-04-04T07:26:57.798Z</updated>
+    <updated>2022-04-05T16:23:40.770Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
-&lt;p&gt;本文汇总一些 Hexo 的个人使用方法&lt;/p&gt;
-&lt;h2 id=&quot;Markdown-语法汇总&quot;&gt;Markdown 语法汇总&lt;/h2&gt;
-&lt;h3 id=&quot;Front-matter&quot;&gt;Front-matter&lt;/h3&gt;
-&lt;figure</summary>
-        
-      
+    <summary type="html">本文汇总一些 Hexo 的个人使用方法</summary>
     
     
     
-    <category term="Markdown" scheme="https://always.com/categories/Markdown/"/>
+    <category term="个人网站" scheme="https://always.com/categories/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
     
     
-    <category term="Typora" scheme="https://always.com/tags/Typora/"/>
-    
-    <category term="Markdown" scheme="https://always.com/tags/Markdown/"/>
+    <category term="Hexo" scheme="https://always.com/tags/Hexo/"/>
     
   </entry>
   
@@ -116,7 +104,8 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;个人网站的常见框架有：Hexo、Wordpress、Typecho 等。一开始我采用的网站搭建方式是：Typecho +</summary>
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+&lt;p&gt;个人网站的常见框架有：Hexo、Wordpress、Typecho 等。一开始我采用的网站搭建方式是：Typecho + 阿里服务器，但对于我来说每年的服务器费是一笔不小的支出，而且 Typecho 扩展性有限，遂改为</summary>
         
       
     
@@ -136,7 +125,7 @@
     <link href="https://always.com/posts/16107/"/>
     <id>https://always.com/posts/16107/</id>
     <published>2021-11-10T11:57:00.000Z</published>
-    <updated>2021-11-12T14:09:06.000Z</updated>
+    <updated>2022-04-05T16:11:17.243Z</updated>
     
     
       
