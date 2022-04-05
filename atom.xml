@@ -6,7 +6,7 @@
   <link href="https://always.com/atom.xml" rel="self"/>
   
   <link href="https://always.com/"/>
-  <updated>2022-02-23T08:55:04.725Z</updated>
+  <updated>2022-04-04T07:26:57.798Z</updated>
   <id>https://always.com/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>沙雕猫猫合集（持续更新中...）</title>
+    <title>【Hexo】Hexo 个人使用指南</title>
+    <link href="https://always.com/posts/19942/"/>
+    <id>https://always.com/posts/19942/</id>
+    <published>2022-04-03T13:19:42.848Z</published>
+    <updated>2022-04-04T07:26:57.798Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+&lt;p&gt;本文汇总一些 Hexo 的个人使用方法&lt;/p&gt;
+&lt;h2 id=&quot;Markdown-语法汇总&quot;&gt;Markdown 语法汇总&lt;/h2&gt;
+&lt;h3 id=&quot;Front-matter&quot;&gt;Front-matter&lt;/h3&gt;
+&lt;figure</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="https://always.com/categories/Markdown/"/>
+    
+    
+    <category term="Typora" scheme="https://always.com/tags/Typora/"/>
+    
+    <category term="Markdown" scheme="https://always.com/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【沙雕猫猫】沙雕猫猫合集（持续更新中...）</title>
     <link href="https://always.com/posts/1/"/>
     <id>https://always.com/posts/1/</id>
     <published>2022-02-06T19:31:00.000Z</published>
-    <updated>2022-02-23T08:55:04.725Z</updated>
+    <updated>2022-04-04T07:17:18.833Z</updated>
     
     
       
@@ -30,7 +61,8 @@
         
     <summary type="html">&lt;div class=&quot;note success flat&quot;&gt;&lt;p&gt;本篇主要收录一些可爱 / 沙雕的猫猫&lt;/p&gt;
 &lt;/div&gt;
-&lt;h2 id=&quot;沙雕流泪猫猫&quot;&gt;&lt;a href=&quot;#沙雕流泪猫猫&quot; class=&quot;headerlink&quot;</summary>
+&lt;h2 id=&quot;沙雕流泪猫猫&quot;&gt;沙雕流泪猫猫&lt;/h2&gt;
+&lt;p&gt;生活不易，猫猫流泪 （视频来自 B 站 UP 主 &lt;a</summary>
         
       
     
@@ -44,18 +76,20 @@
   </entry>
   
   <entry>
-    <title>滚动轴承 - 包络解调分析</title>
+    <title>【故障诊断】滚动轴承 - 包络解调分析</title>
     <link href="https://always.com/posts/55066/"/>
     <id>https://always.com/posts/55066/</id>
     <published>2021-11-26T12:05:00.000Z</published>
-    <updated>2021-12-10T07:27:35.604Z</updated>
+    <updated>2022-04-04T07:17:08.794Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;问题描述&quot;&gt;问题描述&lt;/h2&gt;
+&lt;p&gt;滚动轴承的损伤常发生在外圈、内圈、保持架以及滚动体上。滚动轴承运作时会周期性的撞击故障部位，产生高频共振信号，下图为轴承运行过程中，内圈与滚动体之间发生的冲击。&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
         
       
     
@@ -71,11 +105,11 @@
   </entry>
   
   <entry>
-    <title>Hexo+Github 搭建个人网站</title>
+    <title>【Hexo】Hexo+Github 搭建个人网站</title>
     <link href="https://always.com/posts/12007/"/>
     <id>https://always.com/posts/12007/</id>
     <published>2021-11-10T12:37:00.000Z</published>
-    <updated>2022-01-15T17:45:13.305Z</updated>
+    <updated>2022-04-03T11:00:03.181Z</updated>
     
     
       
@@ -102,7 +136,7 @@
     <link href="https://always.com/posts/16107/"/>
     <id>https://always.com/posts/16107/</id>
     <published>2021-11-10T11:57:00.000Z</published>
-    <updated>2021-11-12T14:09:06.925Z</updated>
+    <updated>2021-11-12T14:09:06.000Z</updated>
     
     
       
