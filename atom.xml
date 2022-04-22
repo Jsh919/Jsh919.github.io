@@ -6,7 +6,7 @@
   <link href="https://always.com/atom.xml" rel="self"/>
   
   <link href="https://always.com/"/>
-  <updated>2022-04-05T16:23:40.770Z</updated>
+  <updated>2022-04-22T18:47:12.725Z</updated>
   <id>https://always.com/</id>
   
   <author>
@@ -17,11 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【疫情时代】四月之声</title>
+    <link href="https://always.com/posts/41125/"/>
+    <id>https://always.com/posts/41125/</id>
+    <published>2022-04-22T17:54:00.000Z</published>
+    <updated>2022-04-22T18:47:12.725Z</updated>
+    
+    
+    <summary type="html">记录上海这魔幻的四月</summary>
+    
+    
+    
+    <category term="疫情时代" scheme="https://always.com/categories/%E7%96%AB%E6%83%85%E6%97%B6%E4%BB%A3/"/>
+    
+    
+    <category term="四月之声" scheme="https://always.com/tags/%E5%9B%9B%E6%9C%88%E4%B9%8B%E5%A3%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【Hexo】Hexo 个人使用指南</title>
     <link href="https://always.com/posts/19942/"/>
     <id>https://always.com/posts/19942/</id>
     <published>2022-04-03T13:19:42.848Z</published>
-    <updated>2022-04-05T16:23:40.770Z</updated>
+    <updated>2022-04-06T13:00:00.934Z</updated>
     
     
     <summary type="html">本文汇总一些 Hexo 的个人使用方法</summary>
@@ -49,7 +68,8 @@
         
     <summary type="html">&lt;div class=&quot;note success flat&quot;&gt;&lt;p&gt;本篇主要收录一些可爱 / 沙雕的猫猫&lt;/p&gt;
 &lt;/div&gt;
-&lt;h2 id=&quot;沙雕流泪猫猫&quot;&gt;&lt;a href=&quot;#沙雕流泪猫猫&quot; class=&quot;headerlink&quot;</summary>
+&lt;h2 id=&quot;沙雕流泪猫猫&quot;&gt;沙雕流泪猫猫&lt;/h2&gt;
+&lt;p&gt;生活不易，猫猫流泪 （视频来自 B 站 UP 主 &lt;a</summary>
         
       
     
@@ -74,7 +94,9 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;问题描述&quot;&gt;问题描述&lt;/h2&gt;
+&lt;p&gt;滚动轴承的损伤常发生在外圈、内圈、保持架以及滚动体上。滚动轴承运作时会周期性的撞击故障部位，产生高频共振信号，下图为轴承运行过程中，内圈与滚动体之间发生的冲击。&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
         
       
     
