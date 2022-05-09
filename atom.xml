@@ -6,7 +6,7 @@
   <link href="https://always.com/atom.xml" rel="self"/>
   
   <link href="https://always.com/"/>
-  <updated>2022-04-22T19:07:36.167Z</updated>
+  <updated>2022-04-06T13:00:00.934Z</updated>
   <id>https://always.com/</id>
   
   <author>
@@ -15,25 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>【疫情时代】四月之声</title>
-    <link href="https://always.com/posts/41125/"/>
-    <id>https://always.com/posts/41125/</id>
-    <published>2022-04-22T17:54:00.000Z</published>
-    <updated>2022-04-22T19:07:36.167Z</updated>
-    
-    
-    <summary type="html">记录上海这魔幻的四月</summary>
-    
-    
-    
-    <category term="疫情时代" scheme="https://always.com/categories/%E7%96%AB%E6%83%85%E6%97%B6%E4%BB%A3/"/>
-    
-    
-    <category term="四月之声" scheme="https://always.com/tags/%E5%9B%9B%E6%9C%88%E4%B9%8B%E5%A3%B0/"/>
-    
-  </entry>
   
   <entry>
     <title>【Hexo】Hexo 个人使用指南</title>
