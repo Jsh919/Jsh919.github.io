@@ -6,7 +6,7 @@
   <link href="https://always.com/atom.xml" rel="self"/>
   
   <link href="https://always.com/"/>
-  <updated>2022-04-06T13:00:00.934Z</updated>
+  <updated>2022-08-12T06:46:31.749Z</updated>
   <id>https://always.com/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【3D 打印 Ender-3 V2】Ender-3 V2 测评</title>
+    <link href="https://always.com/posts/22710/"/>
+    <id>https://always.com/posts/22710/</id>
+    <published>2022-07-10T12:24:00.000Z</published>
+    <updated>2022-08-12T06:46:31.749Z</updated>
+    
+    
+    <summary type="html">我心心念念的3D打印机神器——Ender3！</summary>
+    
+    
+    
+    <category term="3D打印" scheme="https://always.com/categories/3D%E6%89%93%E5%8D%B0/"/>
+    
+    
+    <category term="3D打印" scheme="https://always.com/tags/3D%E6%89%93%E5%8D%B0/"/>
+    
+    <category term="Ender-3 V2" scheme="https://always.com/tags/Ender-3-V2/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【Hexo】Hexo 个人使用指南</title>
     <link href="https://always.com/posts/19942/"/>
     <id>https://always.com/posts/19942/</id>
     <published>2022-04-03T13:19:42.848Z</published>
-    <updated>2022-04-06T13:00:00.934Z</updated>
+    <updated>2022-04-06T13:00:00.000Z</updated>
     
     
     <summary type="html">本文汇总一些 Hexo 的个人使用方法</summary>
@@ -40,7 +61,7 @@
     <link href="https://always.com/posts/1/"/>
     <id>https://always.com/posts/1/</id>
     <published>2022-02-06T19:31:00.000Z</published>
-    <updated>2022-04-04T07:17:18.833Z</updated>
+    <updated>2022-04-04T07:17:18.000Z</updated>
     
     
       
@@ -49,8 +70,7 @@
         
     <summary type="html">&lt;div class=&quot;note success flat&quot;&gt;&lt;p&gt;本篇主要收录一些可爱 / 沙雕的猫猫&lt;/p&gt;
 &lt;/div&gt;
-&lt;h2 id=&quot;沙雕流泪猫猫&quot;&gt;沙雕流泪猫猫&lt;/h2&gt;
-&lt;p&gt;生活不易，猫猫流泪 （视频来自 B 站 UP 主 &lt;a</summary>
+&lt;h2 id=&quot;沙雕流泪猫猫&quot;&gt;&lt;a href=&quot;#沙雕流泪猫猫&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -68,16 +88,14 @@
     <link href="https://always.com/posts/55066/"/>
     <id>https://always.com/posts/55066/</id>
     <published>2021-11-26T12:05:00.000Z</published>
-    <updated>2022-04-04T07:17:08.794Z</updated>
+    <updated>2022-04-04T07:17:08.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;问题描述&quot;&gt;问题描述&lt;/h2&gt;
-&lt;p&gt;滚动轴承的损伤常发生在外圈、内圈、保持架以及滚动体上。滚动轴承运作时会周期性的撞击故障部位，产生高频共振信号，下图为轴承运行过程中，内圈与滚动体之间发生的冲击。&lt;/p&gt;
-&lt;p&gt;&lt;img</summary>
+    <summary type="html">&lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -97,7 +115,7 @@
     <link href="https://always.com/posts/12007/"/>
     <id>https://always.com/posts/12007/</id>
     <published>2021-11-10T12:37:00.000Z</published>
-    <updated>2022-04-06T10:52:10.362Z</updated>
+    <updated>2022-04-06T10:52:10.000Z</updated>
     
     
       
@@ -126,7 +144,7 @@
     <link href="https://always.com/posts/16107/"/>
     <id>https://always.com/posts/16107/</id>
     <published>2021-11-10T11:57:00.000Z</published>
-    <updated>2022-04-05T16:11:17.243Z</updated>
+    <updated>2022-04-05T16:11:17.000Z</updated>
     
     
       
