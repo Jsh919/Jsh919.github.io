@@ -6,7 +6,7 @@
   <link href="https://always.com/atom.xml" rel="self"/>
   
   <link href="https://always.com/"/>
-  <updated>2022-08-12T06:46:31.749Z</updated>
+  <updated>2022-08-23T21:25:10.805Z</updated>
   <id>https://always.com/</id>
   
   <author>
@@ -17,11 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【Hexo】Hexo 个人使用指南</title>
+    <link href="https://always.com/posts/19942/"/>
+    <id>https://always.com/posts/19942/</id>
+    <published>2022-08-21T15:45:41.431Z</published>
+    <updated>2022-08-23T21:25:10.805Z</updated>
+    
+    
+    <summary type="html">本篇汇总一些 Hexo 的个人使用方法</summary>
+    
+    
+    
+    <category term="个人网站" scheme="https://always.com/categories/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
+    
+    
+    <category term="Hexo" scheme="https://always.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【3D 打印 Ender-3 V2】Ender-3 V2 测评</title>
     <link href="https://always.com/posts/22710/"/>
     <id>https://always.com/posts/22710/</id>
     <published>2022-07-10T12:24:00.000Z</published>
-    <updated>2022-08-12T06:46:31.749Z</updated>
+    <updated>2022-08-23T22:11:08.933Z</updated>
     
     
     <summary type="html">我心心念念的3D打印机神器——Ender3！</summary>
@@ -38,41 +57,14 @@
   </entry>
   
   <entry>
-    <title>【Hexo】Hexo 个人使用指南</title>
-    <link href="https://always.com/posts/19942/"/>
-    <id>https://always.com/posts/19942/</id>
-    <published>2022-04-03T13:19:42.848Z</published>
-    <updated>2022-04-06T13:00:00.000Z</updated>
-    
-    
-    <summary type="html">本文汇总一些 Hexo 的个人使用方法</summary>
-    
-    
-    
-    <category term="个人网站" scheme="https://always.com/categories/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
-    
-    
-    <category term="Hexo" scheme="https://always.com/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
     <title>【沙雕猫猫】沙雕猫猫合集（持续更新中...）</title>
     <link href="https://always.com/posts/1/"/>
     <id>https://always.com/posts/1/</id>
     <published>2022-02-06T19:31:00.000Z</published>
-    <updated>2022-04-04T07:17:18.000Z</updated>
+    <updated>2022-08-23T21:24:55.199Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;note success flat&quot;&gt;&lt;p&gt;本篇主要收录一些可爱 / 沙雕的猫猫&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2 id=&quot;沙雕流泪猫猫&quot;&gt;&lt;a href=&quot;#沙雕流泪猫猫&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">本篇主要收录一些可爱/沙雕的猫猫</summary>
     
     
     
@@ -88,14 +80,16 @@
     <link href="https://always.com/posts/55066/"/>
     <id>https://always.com/posts/55066/</id>
     <published>2021-11-26T12:05:00.000Z</published>
-    <updated>2022-04-04T07:17:08.000Z</updated>
+    <updated>2022-08-22T18:48:54.970Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;问题描述&quot;&gt;问题描述&lt;/h2&gt;
+&lt;p&gt;滚动轴承的损伤常发生在外圈、内圈、保持架以及滚动体上。滚动轴承运作时会周期性的撞击故障部位，产生高频共振信号，下图为轴承运行过程中，内圈与滚动体之间发生的冲击。&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
         
       
     
@@ -115,18 +109,10 @@
     <link href="https://always.com/posts/12007/"/>
     <id>https://always.com/posts/12007/</id>
     <published>2021-11-10T12:37:00.000Z</published>
-    <updated>2022-04-06T10:52:10.000Z</updated>
+    <updated>2022-08-23T22:09:51.035Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;note blue icon flat&quot;&gt;&lt;i class=&quot;note-icon fas fa-bullhorn&quot;&gt;&lt;/i&gt;&lt;p&gt;2022/1/7 更新&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;最近迷上了微软的</summary>
-        
-      
+    <summary type="html">帅气博主教你Hexo+Github搭建免费博客、购买域名以及利用Github/SMMS+Picgo构建私人图床!</summary>
     
     
     
@@ -144,7 +130,7 @@
     <link href="https://always.com/posts/16107/"/>
     <id>https://always.com/posts/16107/</id>
     <published>2021-11-10T11:57:00.000Z</published>
-    <updated>2022-04-05T16:11:17.000Z</updated>
+    <updated>2022-08-22T18:52:31.271Z</updated>
     
     
       
