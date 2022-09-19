@@ -6,7 +6,7 @@
   <link href="https://always.com/atom.xml" rel="self"/>
   
   <link href="https://always.com/"/>
-  <updated>2022-08-23T21:25:10.805Z</updated>
+  <updated>2022-08-23T22:11:08.933Z</updated>
   <id>https://always.com/</id>
   
   <author>
@@ -15,25 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>【Hexo】Hexo 个人使用指南</title>
-    <link href="https://always.com/posts/19942/"/>
-    <id>https://always.com/posts/19942/</id>
-    <published>2022-08-21T15:45:41.431Z</published>
-    <updated>2022-08-23T21:25:10.805Z</updated>
-    
-    
-    <summary type="html">本篇汇总一些 Hexo 的个人使用方法</summary>
-    
-    
-    
-    <category term="个人网站" scheme="https://always.com/categories/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
-    
-    
-    <category term="Hexo" scheme="https://always.com/tags/Hexo/"/>
-    
-  </entry>
   
   <entry>
     <title>【3D 打印 Ender-3 V2】Ender-3 V2 测评</title>
@@ -143,6 +124,25 @@
     
     
     
+    
+  </entry>
+  
+  <entry>
+    <title>【Hexo】Hexo 个人使用指南</title>
+    <link href="https://always.com/posts/19942/"/>
+    <id>https://always.com/posts/19942/</id>
+    <published>2020-09-07T01:25:00.000Z</published>
+    <updated>2022-09-19T13:32:58.734Z</updated>
+    
+    
+    <summary type="html">本篇汇总一些 Hexo 的个人使用方法</summary>
+    
+    
+    
+    <category term="个人网站" scheme="https://always.com/categories/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
+    
+    
+    <category term="Hexo" scheme="https://always.com/tags/Hexo/"/>
     
   </entry>
   
