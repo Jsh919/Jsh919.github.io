@@ -6,7 +6,7 @@
   <link href="https://always.com/atom.xml" rel="self"/>
   
   <link href="https://always.com/"/>
-  <updated>2022-09-21T07:53:22.874Z</updated>
+  <updated>2022-08-23T22:11:08.933Z</updated>
   <id>https://always.com/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>【预测性维护】剩余使用寿命预测</title>
-    <link href="https://always.com/posts/20921/"/>
-    <id>https://always.com/posts/20921/</id>
-    <published>2022-09-21T07:51:00.000Z</published>
-    <updated>2022-09-21T07:53:22.874Z</updated>
-    
-    
-    <summary type="html">剩余使用寿命预测的方法汇总</summary>
-    
-    
-    
-    <category term="剩余使用寿命预测" scheme="https://always.com/categories/%E5%89%A9%E4%BD%99%E4%BD%BF%E7%94%A8%E5%AF%BF%E5%91%BD%E9%A2%84%E6%B5%8B/"/>
-    
-    
-    <category term="PHM" scheme="https://always.com/tags/PHM/"/>
-    
-    <category term="剩余使用寿命预测" scheme="https://always.com/tags/%E5%89%A9%E4%BD%99%E4%BD%BF%E7%94%A8%E5%AF%BF%E5%91%BD%E9%A2%84%E6%B5%8B/"/>
-    
-  </entry>
   
   <entry>
     <title>【3D 打印 Ender-3 V2】Ender-3 V2 测评</title>
@@ -89,7 +68,9 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;问题描述&quot;&gt;问题描述&lt;/h2&gt;
+&lt;p&gt;滚动轴承的损伤常发生在外圈、内圈、保持架以及滚动体上。滚动轴承运作时会周期性的撞击故障部位，产生高频共振信号，下图为轴承运行过程中，内圈与滚动体之间发生的冲击。&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
         
       
     
