@@ -1,27 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>AlwaysCU</title>
+  <title>JiShH</title>
   <icon>https://always.com/icon.png</icon>
   
   <link href="https://always.com/atom.xml" rel="self"/>
   
   <link href="https://always.com/"/>
-  <updated>2022-08-23T22:11:08.933Z</updated>
+  <updated>2023-06-19T13:35:29.932Z</updated>
   <id>https://always.com/</id>
   
   <author>
-    <name>AlwaysCU</name>
+    <name>JiShH</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【Hexo】SJTU-SY 滚动轴承退化数据分析</title>
+    <link href="https://always.com/posts/230313/"/>
+    <id>https://always.com/posts/230313/</id>
+    <published>2023-03-13T11:32:00.000Z</published>
+    <updated>2023-06-19T13:35:29.932Z</updated>
+    
+    
+    <summary type="html">西安交通大学滚动轴承退化数据简介及分析</summary>
+    
+    
+    
+    <category term="故障诊断" scheme="https://always.com/categories/%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD/"/>
+    
+    
+    <category term="滚动轴承" scheme="https://always.com/tags/%E6%BB%9A%E5%8A%A8%E8%BD%B4%E6%89%BF/"/>
+    
+    <category term="数据集" scheme="https://always.com/tags/%E6%95%B0%E6%8D%AE%E9%9B%86/"/>
+    
+    <category term="Python" scheme="https://always.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【3D 打印 Ender-3 V2】Ender-3 V2 测评</title>
     <link href="https://always.com/posts/22710/"/>
     <id>https://always.com/posts/22710/</id>
     <published>2022-07-10T12:24:00.000Z</published>
-    <updated>2022-08-23T22:11:08.933Z</updated>
+    <updated>2023-06-19T13:34:38.018Z</updated>
     
     
     <summary type="html">我心心念念的3D打印机神器——Ender3！</summary>
@@ -42,7 +65,7 @@
     <link href="https://always.com/posts/1/"/>
     <id>https://always.com/posts/1/</id>
     <published>2022-02-06T19:31:00.000Z</published>
-    <updated>2022-10-09T15:25:41.032Z</updated>
+    <updated>2023-06-19T13:35:49.493Z</updated>
     
     
     <summary type="html">本篇主要收录一些可爱/沙雕的猫猫</summary>
@@ -61,7 +84,7 @@
     <link href="https://always.com/posts/55066/"/>
     <id>https://always.com/posts/55066/</id>
     <published>2021-11-26T12:05:00.000Z</published>
-    <updated>2022-08-22T18:48:54.970Z</updated>
+    <updated>2023-06-19T13:35:00.291Z</updated>
     
     
       
@@ -90,7 +113,7 @@
     <link href="https://always.com/posts/12007/"/>
     <id>https://always.com/posts/12007/</id>
     <published>2021-11-10T12:37:00.000Z</published>
-    <updated>2022-08-23T22:09:51.035Z</updated>
+    <updated>2023-06-19T13:34:45.450Z</updated>
     
     
     <summary type="html">帅气博主教你Hexo+Github搭建免费博客、购买域名以及利用Github/SMMS+Picgo构建私人图床!</summary>
@@ -132,7 +155,7 @@
     <link href="https://always.com/posts/19942/"/>
     <id>https://always.com/posts/19942/</id>
     <published>2020-09-07T01:25:00.000Z</published>
-    <updated>2022-10-16T02:08:31.461Z</updated>
+    <updated>2023-06-19T13:34:51.789Z</updated>
     
     
     <summary type="html">本篇汇总一些 Hexo 的个人使用方法</summary>

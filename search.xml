@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>【Hexo】SJTU-SY 滚动轴承退化数据分析</title>
+      <link href="/posts/230313/"/>
+      <url>/posts/230313/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 故障诊断 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 滚动轴承 </tag>
+            
+            <tag> 数据集 </tag>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【3D 打印 Ender-3 V2】Ender-3 V2 测评</title>
       <link href="/posts/22710/"/>
       <url>/posts/22710/</url>
