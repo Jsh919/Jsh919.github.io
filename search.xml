@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>【Linux】xrdp 远程桌面安装</title>
+      <link href="/posts/230709/"/>
+      <url>/posts/230709/</url>
+      
+        <content type="html"><![CDATA[<h2 id="系统配置">系统配置</h2><p><code>CentOS Linux release 7.9.2009 (Core)</code><br>Windows 自带的远程桌面无法连接 Linux 服务器，解决方案是在 Linux 服务器上安装 xrdp 并进行配置，所需安装如下：</p><ul><li>GNOME</li><li>epel-release</li><li>xrdp</li></ul><h2 id="xrdp-安装">xrdp 安装</h2><ol><li>GNOME<br>检查服务器是否安装图形化桌面 GNOME</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rpm -qa | grep gnome-desktop</span><br></pre></td></tr></table></figure><p>无安装则安装 GNOME</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y groups install &quot;GNOME Desktop&quot;</span><br></pre></td></tr></table></figure><ol start="2"><li>xrdp<br>yum 基本源中不包含 xrdp 包，因此安装 epel-release 扩展源</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install epel-release</span><br></pre></td></tr></table></figure><p>安装 xrdp</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install xrdp</span><br></pre></td></tr></table></figure><p>若显示如下</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"> 没有可用软件包 xrdp。</span><br><span class="line"> 错误：无须任何处理 </span><br></pre></td></tr></table></figure><p>则找到适合自己系统的 xrdp 包，以 x86_64 为例离线安装 xrdp</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">wget https://kojipkgs.fedoraproject.org//packages/xrdp/0.9.22.1/3.fc39/x86_64/xrdp-0.9.22.1-3.fc39.x86_64.rpm</span><br><span class="line">yum -y install xrdp-0.9.22.1-3.fc39.x86_64.rpm</span><br></pre></td></tr></table></figure><p>如果遇到类似 <code>xrdp-0.9.22.1-2.el7.x86_64 (/xrdp-0.9.22.1-2.el7.x86_64) 需要：libImlib2.so.1 ()(64bit)</code> 的报错，就缺什么安什么</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">wget https://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/i/imlib2-1.4.9-8.el7.x86_64.rpm</span><br><span class="line">yum -y install imlib2-1.4.9-8.el7.x86_64.rpm</span><br></pre></td></tr></table></figure><p>启动 xrdp 并设置开机启动</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">systemctl start xrdp</span><br><span class="line">systemctl enable xrdp</span><br></pre></td></tr></table></figure><p>关闭防火墙</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl stop firewalld</span><br></pre></td></tr></table></figure><p>至此 xrdp 安装配置完毕<br>3. 远程连接<br>远程连接时可能会出现输入用户密码后闪退，先查看报错日志</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano home/admin/.xsession-errors</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">imsettings-check: ): IMSettings-WARNING **: Could not connect: Connection refused</span><br><span class="line"> </span><br><span class="line">(imsettings-check: ): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion &#x27;G_IS_DBUS_PROXY (proxy)&#x27; failed</span><br><span class="line">GLib-GIO-Message: Using the &#x27;memory&#x27; GSettings backend. Your settings will not be saved or shared with other applications.</span><br><span class="line"> </span><br><span class="line">** (process: ): WARNING **: Could not make bus activated clients aware of XDG_CURRENT_DESKTOP=GNOME environment variable: Could not connect: Connection refused</span><br></pre></td></tr></table></figure><p>报错原因是 anaconda 中的的 dbus_daemo 与 /usr/bin 的 dbus_daemo 冲突，解决方案是将 /usr/bin 先让系统识别</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nano ~/.bashrc</span><br></pre></td></tr></table></figure><p>将原本的环境变量改为</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export PATH=&quot;/usr/bin:/home/admin/anaconda3/bin:$PATH&quot;</span><br></pre></td></tr></table></figure><p><img src="https://s2.loli.net/2023/07/09/RurbQno4UGd1g8S.png" alt=""><br>更改当前的环境变量</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ~/.bashrc</span><br></pre></td></tr></table></figure><p>连接成功<br><img src="https://s2.loli.net/2023/07/09/UJSdmuPIwFXpjtk.png" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+            <tag> xrdp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>有用代码合集</title>
       <link href="/posts/30703/"/>
       <url>/posts/30703/</url>

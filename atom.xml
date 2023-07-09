@@ -6,7 +6,7 @@
   <link href="https://always.com/atom.xml" rel="self"/>
   
   <link href="https://always.com/"/>
-  <updated>2023-07-04T06:59:54.626Z</updated>
+  <updated>2023-07-09T12:45:37.936Z</updated>
   <id>https://always.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Linux】xrdp 远程桌面安装</title>
+    <link href="https://always.com/posts/230709/"/>
+    <id>https://always.com/posts/230709/</id>
+    <published>2023-07-09T12:05:00.000Z</published>
+    <updated>2023-07-09T12:45:37.936Z</updated>
+    
+    
+    <summary type="html">Windows远程连接Linux图形化桌面解决方案</summary>
+    
+    
+    
+    <category term="Linux" scheme="https://always.com/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://always.com/tags/Linux/"/>
+    
+    <category term="xrdp" scheme="https://always.com/tags/xrdp/"/>
+    
+  </entry>
   
   <entry>
     <title>有用代码合集</title>
