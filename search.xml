@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>【内存泄漏】记一次 Windows10 内存泄漏定位及修复</title>
+      <link href="/posts/25529/"/>
+      <url>/posts/25529/</url>
+      
+        <content type="html"><![CDATA[<h2 id="内存泄漏表现">内存泄漏表现</h2><p>前段时间电脑待机时间过长会出现完全卡死、黑屏的症状，调出任务管理器发现内存（32G）占用率达到了 99%，但发现任务管理器中内存占比没有异常，但内存详细中的非分页缓冲池占比达到了 9G 甚至更多（在内存占用率 60% 的情况下占比，图是修复好后的内存详细），初步判断可能是设备驱动程序的问题。</p><p><img src="https://s2.loli.net/2025/05/30/1jJmO3z2QYBisEh.png" alt="20250530161459923.png"></p><p>依次排查电脑病毒、驱动更新、电脑启动项，也尝试过 Windows 内存诊断，但都没有发现问题。在此之后我发现电脑在只打开 Edge 浏览器的情况下内存会不断的从 20%-50%-99% 上涨直至内存占满，所以定位到电脑存在内存泄漏的问题。</p><h2 id="解决过程">解决过程</h2><p>由于这个内存泄漏无法用任务管理器进行查看，所以需要借助 Poolmon 命令行工具<br><strong>PoolMon - Windows drivers</strong>: <a class="btn-beautify button--animated outline larger" href="https://learn.microsoft.com/zh-cn/windows-hardware/drivers/devtest/poolmon"   title="PoolMon"><i class="far fa-hand-point-right"></i><span>PoolMon</span></a></p><p>打开 Poolmon.exe，按下 B 键就会按照占用内存大小倒序排列</p><p><img src="https://s2.loli.net/2025/05/30/Ht5VmLRkelGjCh4.png" alt="20250530161611340.png"></p><p>定位到 FMic、Irp，类型为 Nonp，在任务管理器中不会显示，并且随时间推移其内存占用量不断增加，初步定位问题源。切换到 C 盘根目录，使用 findstr /m/l /s FMic *.sys 查找驱动文件</p><p><img src="https://s2.loli.net/2025/05/30/rVYkBh8RAaXNCS5.png" alt="20250530161737885.png"></p><p>发现内存标记为 FMic 的驱动模块为 fltMgr.sys，该驱动为系统提供的 minifilter 框架驱动，那就可能是系统各种的 minifilter 调用框架 api，产生了内存分配，却没有释放导致，使用 fltmc 命令查看系统存在的 minifilter，发现 gameflt 这个驱动模块有点可疑</p><p><img src="https://s2.loli.net/2025/05/30/b9Ux4d7YoQuawCi.png" alt="20250530161806178.png"></p><p>查找到 gameflt.sys 是 Xbox 的驱动程序包（印象中这个驱动文件是在 DriverStroce 中的），因此用 DriverStoreExplorer 给他全删喽</p><p><img src="https://s2.loli.net/2025/05/30/5eupE283AalFvXr.png" alt="20250530161848909.png"></p><p><strong>DriverStore Explorer</strong>: <a class="btn-beautify button--animated outline larger" href="https://github.com/lostindark/DriverStoreExplorer"   title="DriverStore Explorer"><i class="far fa-hand-point-right"></i><span>DriverStore Explorer</span></a></p><p>我是把关于 Xbox 的所有驱动全删除了，尤其是 gameflt，一些正在使用的驱动可以不用删除。另外，我还把电脑上所有 Xbox 相关的软件、插件全扔垃圾桶里，重启后问题解决。</p><p><img src="https://s2.loli.net/2025/05/30/DjnB7gvEM4f3I61.png" alt="20250530162058929.png"></p><h2 id="参考">参考</h2><p><a href="https://www.jiangyoupai.com/p/n_ER-6rgqRBYK_E1-RQ0Q">分页缓存池和非分页缓存池：深入理解与应用 - 酱油派</a></p><p><a href="https://www.cnblogs.com/oboth-zl/p/17168468.html">记录一起 Windows 内存泄露故障排查 - 書劍飄零 - 博客园</a></p><p><a href="https://blog.csdn.net/g1093896295/article/details/133914384">解决 Windows 内存溢出 / 占满死机问题 - PoolMon 工具 - CSDN 博客</a></p><p><a href="https://blog.csdn.net/icbm/article/details/79826925">正确的清理 DriverStore 文件夹中的驱动程序 - CSDN 博客</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 内存泄漏 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【Linux】xrdp 远程桌面安装</title>
       <link href="/posts/230709/"/>
       <url>/posts/230709/</url>
